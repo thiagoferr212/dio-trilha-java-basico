@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class SmartTv {
  
      boolean ligada = false;
@@ -6,13 +8,12 @@ public class SmartTv {
 
      public void aumentarCanal(){
          canal++;
-         System.out.println("Canal aumentado para: " + canal);
+         System.out.println("Canal aumentado: " + canal);
      }
      public void diminuirCanal(){
          canal--;
          System.out.println("Canal diminuido para: " + canal);
      }
-
      public void mudarCanal(int novoCanal){
          this.canal = novoCanal;
          System.out.println("Canal selecionado: " + canal);
