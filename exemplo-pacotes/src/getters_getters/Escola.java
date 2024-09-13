@@ -1,3 +1,4 @@
+package getters_getters;
 public class Escola {
     public static void main(String[] args) {
         Aluno aluno1 = new Aluno();
