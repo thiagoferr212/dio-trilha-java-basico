@@ -1,3 +1,5 @@
+package loja;
+
 import aparelho.Iphone;
 
 public class Usuario {
@@ -6,7 +8,7 @@ public class Usuario {
         Iphone ip = new Iphone();
 
         System.out.println("--APARELHO TELEFONICO--");
-        ip.ligar("123456789");
+        ip.ligar("123456789");;
         ip.atender();
         ip.iniciarCorreioVoz();
         System.out.println("");
@@ -18,7 +20,7 @@ public class Usuario {
         System.out.println("");
         
         System.out.println("--NAVEGADOR INTERNET--");
-        ip.exibirPagina("http:dio.com");
+        ip.exibirPagina("https://dio.com");;
         ip.adicionarNovaAba();
         ip.atualizarPagina();
         System.out.println("");

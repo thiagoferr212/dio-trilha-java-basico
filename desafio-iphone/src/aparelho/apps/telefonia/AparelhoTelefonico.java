@@ -1,4 +1,4 @@
-package aparelho.apps;
+package aparelho.apps.telefonia;
 
 public interface AparelhoTelefonico{
     

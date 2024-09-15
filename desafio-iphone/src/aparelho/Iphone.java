@@ -1,13 +1,13 @@
 package aparelho;
 
-import aparelho.apps.AparelhoTelefonico;
-import aparelho.apps.NavegadorInternet;
-import aparelho.apps.ReprodutorMusical;
+import aparelho.apps.midia.ReprodutorMusical;
+import aparelho.apps.navegador.NavegadorInternet;
+import aparelho.apps.telefonia.AparelhoTelefonico;
 
 public class Iphone implements AparelhoTelefonico, NavegadorInternet, ReprodutorMusical{
 
 
-    private void verficarConexao(){
+    private void verificarConexao(){
         System.out.println("VERIFICANDO A CONEXÃO COM A INTERNET...");
     }
     
@@ -15,6 +15,7 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
         System.out.println("VERIFICANDO SE O TELEFONE POSSUI SINAL...");
     }
 
+    // metodos Aparelho telefonico
     public void atender() {
         System.out.println("ATENDENDO TELEFONE...");       
     }
@@ -28,6 +29,7 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
         System.out.println("LIGANDO PARA: " + numero);   
     }
 
+    // metodos Navegador Internet
     public void adicionarNovaAba() {
         System.out.println("ADICIONANDO NOVA ABA NO NAVEGADOR");       
     }
@@ -37,10 +39,11 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
     }
 
     public void exibirPagina(String url) {
-        verficarConexao();
+        verificarConexao();
         System.out.println("EXIBINDO A PAGINA: " + url);       
     }
 
+    // metodos Reprodutor Musical
     public void pausar() {
         System.out.println("MUSICA PAUSDA");       
     }

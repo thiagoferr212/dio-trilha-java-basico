@@ -1,4 +1,4 @@
-package aparelho.apps;
+package aparelho.apps.midia;
 
 public interface ReprodutorMusical{
     
