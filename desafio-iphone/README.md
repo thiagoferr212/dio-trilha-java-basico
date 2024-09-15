@@ -6,12 +6,12 @@
 ## Objetivos do Desafio
 
 ### 1. Criar um diagrama UML que represente as funcionalidades descritas abaixo.
-    **Reprodutor Musical**
-    - Métodos: `tocar()`, `pausar()`, `selecionarMusica(String musica)`
-    **Aparelho Telefônico**
-    - Métodos: `ligar(String numero)`, `atender()`, `iniciarCorreioVoz()`
-    **Navegador na Internet**
-    - Métodos: `exibirPagina(String url)`, `adicionarNovaAba()`, `atualizarPagina()`
+**Reprodutor Musical**
+- Métodos: `tocar()`, `pausar()`, `selecionarMusica(String musica)`
+**Aparelho Telefônico**
+- Métodos: `ligar(String numero)`, `atender()`, `iniciarCorreioVoz()`
+**Navegador na Internet**
+- Métodos: `exibirPagina(String url)`, `adicionarNovaAba()`, `atualizarPagina()`
 ### 2. Implementar as classes e interfaces correspondentes em Java.
 
 ## Diagrama UML(Mermaid)
